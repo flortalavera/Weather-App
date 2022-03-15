@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=PT+Serif&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b1eb703c25.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" class="search-bar" placeholder="Search">
+            <button><i class="fas fa-search"></i></i></button>
+        </div>
+        <div class="weather loading">
+            <h2 class="city">Clima en</h2>
+            <div class="temp">40°C</div>
+            <div class="flex">
+                <img src="https://openweathermap.org/img/wn/01d.png" alt="icono" class="icon" />
+                <div class="description">Caluroso</div>
+            </div>
+            <div class="humidity">50% humedad</div>
+            <div class="wind">vientos 6.2 km x hs</div>
+        </div>
+    </div>
+
+    <script src="/script.js" defer></script>
+</body>
+
+</html>
