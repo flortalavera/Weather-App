@@ -2,4 +2,4 @@
 - Usé HTML, CSS, y JavaScript para crearla.
 - Usando una API: OpenWeatherMap.
 - El background-image cambia según la ciudad que se busca, utilicé: Unsplash-Api
-- Deploy en Netlify
+- Deploy en Netlify: https://flor-talavera-weather.netlify.app/
